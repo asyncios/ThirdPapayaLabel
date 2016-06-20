@@ -1,0 +1,6 @@
+framework module ThirdPapayaLabel {
+  umbrella header "ThirdPapayaLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

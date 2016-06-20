@@ -1,0 +1,6 @@
+framework module Pods_ThirdPapayaLabel_Example {
+  umbrella header "Pods-ThirdPapayaLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
