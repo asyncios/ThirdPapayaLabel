@@ -7,6 +7,7 @@
 //
 
 #import "CPPViewController.h"
+#import <ThirdPapayaLabel/CustomLabel.h>
 
 @interface CPPViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    CustomLabel*pLabel = [[CustomLabel alloc] init];
+    [pLabel customLog];
 }
 
 - (void)didReceiveMemoryWarning
