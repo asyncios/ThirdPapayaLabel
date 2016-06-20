@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThirdPapayaLabel_Example' do
+  pod 'ThirdPapayaLabel', :path => '../'
+
+  target 'ThirdPapayaLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
